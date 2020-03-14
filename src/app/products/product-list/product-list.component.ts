@@ -4,7 +4,7 @@ import { ProductService } from '../product.service';
 import { Observable, EMPTY } from 'rxjs';
 import { tap, catchError } from 'rxjs/operators';
 import { Router } from '@angular/router';
-import { fadeInAnimation } from 'src/app/animations';
+import { fadeInAnimation } from './../../../app/animations';
 
 @Component({
   selector: 'app-product-list',
